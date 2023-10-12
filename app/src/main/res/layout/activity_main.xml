@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchmain"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:textOff="@string/d"
+            android:textOn="N"
+            android:thumb="@drawable/thumb"
+            app:showText="true"
+            app:track="@drawable/track"
+            tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMainSc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/cardview1"
+        />
+
+
+</LinearLayout>

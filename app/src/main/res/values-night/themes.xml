@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Story" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="textView_style">
+
+        <item name="android:textColor">#F10606</item>
+    </style>
+
+    <style name="cardview1">
+
+        <item name="android:startColor">#494646</item>
+        <item name="android:endColor">@color/white</item>
+        <item name="android:angle">-90</item>
+
+    </style>
+</resources>
+
