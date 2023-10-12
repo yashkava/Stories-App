@@ -79,9 +79,7 @@ class AnimalActivity : AppCompatActivity() {
 
                         startActivity(i)
 
-                        Toast.makeText(this@AnimalActivity,
-                            arrayList[position].category.toString(),
-                            Toast.LENGTH_SHORT).show()
+
 
                     }
                 })

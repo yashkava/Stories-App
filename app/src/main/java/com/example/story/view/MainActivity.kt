@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         recyclerview.adapter = adapter
         adapter.setOnItemClickListener(object : StoryAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
-                Toast.makeText(applicationContext, data[position].storyName, Toast.LENGTH_SHORT).show()
+
                 val i = Intent(this@MainActivity, AnimalActivity::class.java)
                 i.putExtra("data",data[position].storyName)
                 Log.d("000cat activity",data[position].storyName)
