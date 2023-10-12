@@ -1,5 +1,5 @@
 # Stories-App
 
-Prashant Changed
-agreed
+Prashant Changed /n
+agreed /n
 now make secound change
