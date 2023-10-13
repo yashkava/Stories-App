@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
-        Log.d("storis",data.toString())
+        Log.d("storis is opening",data.toString())
 
     }
 
