@@ -33,9 +33,7 @@
             android:layout_weight="1"
             android:textOff="@string/d"
             android:textOn="N"
-
             app:showText="true"
-
             tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,UseSwitchCompatOrMaterialXml" />
 
     </LinearLayout>
