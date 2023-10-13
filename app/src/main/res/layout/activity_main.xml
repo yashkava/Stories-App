@@ -33,9 +33,9 @@
             android:layout_weight="1"
             android:textOff="@string/d"
             android:textOn="N"
-            android:thumb="@drawable/thumb"
+
             app:showText="true"
-            app:track="@drawable/track"
+
             tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,UseSwitchCompatOrMaterialXml" />
 
     </LinearLayout>
@@ -43,7 +43,7 @@
         android:id="@+id/rvMainSc"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:theme="@style/cardview1"
+
         />
 
 
